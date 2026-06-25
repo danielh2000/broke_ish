@@ -62,20 +62,20 @@ export function Landing({ onDataReady }: LandingProps) {
       <header className="landing-header">
         <div className="logo">
           <TrendingDown size={22} strokeWidth={2.5} />
-          <span>broke<span className="logo-accent">_ish</span></span>
+          <span>imali<span className="logo-accent">yami</span></span>
         </div>
       </header>
 
       <main className="landing-main">
         <div className="hero">
-          <p className="hero-eyebrow">personal finance, honestly</p>
+          <p className="hero-eyebrow">imali yami — personal finance, honestly</p>
           <h1 className="hero-title">
             Know exactly<br />
             where it all went.
           </h1>
           <p className="hero-sub">
             Drop in your bank's CSV export. We'll categorise every transaction
-            and give you a clean picture of your spending — no accounts, no subscriptions.
+            and give you a clean picture of your spending — no accounts, no subscriptions, no nonsense.
           </p>
         </div>
 

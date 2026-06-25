@@ -35,7 +35,7 @@ export default function App() {
       <nav className="nav">
         <div className="nav-brand">
           <TrendingDown size={20} strokeWidth={2.5} />
-          <span>broke<span className="logo-accent">_ish</span></span>
+          <span>imali<span className="logo-accent">yami</span></span>
         </div>
         <div className="nav-tabs">
           <button
