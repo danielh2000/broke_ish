@@ -1,7 +1,7 @@
 import React, { useMemo, useState } from 'react';
 import { Search, ArrowUpRight, ArrowDownLeft } from 'lucide-react';
 import { Transaction } from '../types';
-import { CATEGORIES, sendCorrection } from '../utils/categoriser';
+import { CATEGORIES, } from '../utils/categoriser';
 
 interface TransactionsProps {
   transactions: Transaction[];

@@ -44,7 +44,7 @@ export function parseCSV(file: File): Promise<Transaction[]> {
             let amount = 0;
 
             if (cols.amount) {
-              const raw = row[cols.amount]?.replace(/[^0-9.\-]/g, '') ?? '0';
+              const raw = row[cols.amount]?.replace(/[^0-9.-]/g, '') ?? '0';
               amount = parseFloat(raw) || 0;
             } else if (cols.credit || cols.debit) {
               const credit = parseFloat(row[cols.credit!]?.replace(/[^0-9.]/g, '') ?? '0') || 0;
